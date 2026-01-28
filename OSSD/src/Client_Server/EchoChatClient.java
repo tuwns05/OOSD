@@ -7,7 +7,7 @@ import java.net.Socket;
  
 public class EchoChatClient {
     public final static String SERVER_IP = "127.0.0.1";
-    public final static int SERVER_PORT = 8080;
+    public final static int SERVER_PORT = 9999;
  
     public static void main(String[] args) throws IOException, InterruptedException {
         Socket socket = null;
